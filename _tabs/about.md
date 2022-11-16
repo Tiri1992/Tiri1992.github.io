@@ -1,8 +1,9 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+
+Hey my names Tiri, I'm a London based Backend Engineer mostly specialising in python. I enjoy to solve core engineering challenges, this is anywhere from SW design to algorithmic problems and this blog is dedicated to my learnings along the way. If any topics in this blog have helped you learn something new then thats great! 
+
+Feel free to reach out to me via email if you have any questions.
