@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binary Trees Introduction"
+title: "Binary Trees - Introduction"
 mermaid: true
 categories: [data_structures,binary_tree]
 tags: [python, data_structures, binary_tree]
