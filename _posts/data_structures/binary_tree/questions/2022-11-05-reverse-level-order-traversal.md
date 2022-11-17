@@ -22,6 +22,8 @@ flowchart TD
 Expected output `4-6-7-9-2`.
 
 The solution leverages a `stack` to reverse the traversal performed by the breadth-first search of the `queue`.
+
+
 ```python
 from queue import Queue
 
