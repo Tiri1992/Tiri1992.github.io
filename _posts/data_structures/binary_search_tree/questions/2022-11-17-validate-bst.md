@@ -31,7 +31,7 @@ flowchart TD
     10((10)) --> 14((14)) 
 ```
 
-This is not valid because `5 < 7` and belongs to the left subtree of `7`.
+This is not valid because `5 < 7` and `5` belongs to the left subtree of `7`.
 
 
 ```python
