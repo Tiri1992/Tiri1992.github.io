@@ -21,7 +21,8 @@ flowchart TD
 This meets the criteria because `2 < 4` and `7 > 4`.
 
 
-**Note**: If there aren't exactly two children, the reference to the non-existant child will be `None`. 
+> If there aren't exactly two children, the reference to the non-existant child will be `None`. 
+{: .prompt-info}
 
 ---
 
@@ -55,7 +56,8 @@ flowchart TD
 ```
 
 
-**Warning**: It is not desirable to have a linear binary search tree because it defeats the purpose. The time complexity is now reverted to O(N), which is far worse than the average BST case of O(LogN).
+> It is not desirable to have a linear binary search tree because it defeats the purpose. The time complexity is now reverted to O(N), which is far worse than the average BST case of O(LogN).
+{: .prompt-warning}
 
 --- 
 

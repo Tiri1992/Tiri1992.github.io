@@ -22,7 +22,8 @@ Some definitions to get us started. The ``depth`` of a node is calculated as the
 
 The ``height`` of a tree is the path length from the root to the **deepest** descendent leaf. Idea is to find this path and count the number of nodes. You may recognise that ``height`` and ``depth`` are related.
 
-**NOTE**: A single node binary tree has ``height = 1``
+> A single node binary tree has ``height = 1``
+{: .prompt-info}
 
 
 ```mermaid
