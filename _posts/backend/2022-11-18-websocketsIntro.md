@@ -34,7 +34,7 @@ A websocket connection is typically over TCP/IP, so we first need to define a `U
 ws://{address}:{port}
 ```
 
-In our case: `address=localhost` and `port=4000`. In a production environment, you're address might be the ip of your server hosting your websocket.
+In our case: `address=localhost` and `port=8765`. In a production environment, you're address might be the ip of your server hosting your websocket.
 
 ```mermaid
 graph LR
