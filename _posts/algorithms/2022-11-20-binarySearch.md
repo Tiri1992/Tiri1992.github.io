@@ -6,11 +6,11 @@ categories: [algorithms,binary_search]
 tags: [python, algorithms, binary_search, recursion]
 ---
 
-Allows you to search an ordered list of elements using divide and conquer strategy.
+A binary search algorithm allows you to search an ordered list of elements using divide and conquer strategy. But before we dive in, lets have a gentle reminder of a linear search.
 
-Whats linear search?
+## Whats linear search?
 
-* Iterate through an array looking for your target element
+* Iterate through an array sequentially looking for your target element
 * Runtime of `O(N)`, where `N` is input size
 
 > Binary search is more efficient than linear search, just the requirement is that the array is sorted.
