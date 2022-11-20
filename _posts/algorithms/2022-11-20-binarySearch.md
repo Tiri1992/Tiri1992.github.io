@@ -197,7 +197,7 @@ Lets have a look at some of the sequence types
 
 ```
 
-This one is far trickier than the others because of the *reverse* ordering that can happen somewhere between the first and last element of the array. The first thing you should be thinking with a binary search solution is, what am I comparing the midpoint to? Or how do I know if my peak is in the left or right half of my subspace *OR* have a reached it?
+This one is far trickier than the others because of the *reverse* ordering that can happen somewhere between the first and last element of the array. The first thing you should be thinking with a binary search solution is, what am I comparing the midpoint to? Or how do I know if my peak is in the left or right half of my subspace **OR** have I reached it?
 
 Let me just go through the linear solution so we have a rough idea of what the naive approach would be.
 
