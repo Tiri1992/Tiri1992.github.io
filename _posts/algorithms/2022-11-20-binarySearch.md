@@ -186,7 +186,7 @@ if __name__ == "__main__":
 ---
 ## Find Bitonic Peak
 
-First let me define what a `bitonic peak` is. A `bitonically sorted` array is one that starts off with increasing terms and then concludes with decreasing terms. In any such sequence, there is a 'peak' element which is the largest element in the sequence. Sequences **do not** contain any duplicates.
+First let me define what a `bitonic peak` is. A `bitonically sorted` array is one that starts off with increasing terms and then concludes with decreasing terms. In any such sequence, there is a 'peak' element (index `K`) which is the largest element in the sequence. Sequences **do not** contain any duplicates.
 
 Lets have a look at some of the sequence types
 
@@ -223,7 +223,7 @@ def binary_search(A, low, high):
     if len(A) < 3:
       # Not enough elements to have a peak
       return None
-    # Special case when K = 0 i.e. reverts to a asc sorted list
+    # Special case when K = (N - 1) i.e. reverts to a asc sorted list
     if A[low] < A[low + 1] and A[high] > A[high - 1]:
         return A[high]
     # Base cases is if they are all in order
