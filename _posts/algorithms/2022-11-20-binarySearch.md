@@ -253,11 +253,11 @@ A couple things to note here:
 * Else the peak is to the left half of the search space.
 
 --- 
-## Find the first entry in the list with duplicates
+## Find the first entry in the list with duplicates
 
 Write a function that takes an array of sorted integers and a key and returns the index of the first occurences of that key from the array. A simple example would be
 
-```
+```python
 A = [-14, -10, 2, 108, 108, 243, 285, 285, 285, 401]
 target = 108
 
