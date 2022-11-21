@@ -303,3 +303,36 @@ if __name__ == "__main__":
     print(binary_search(A, target))
 ```
 
+---
+## Stuff about bisect module
+
+
+The bisect module provides a built-in `binary search` implementation in python. There a few functions which are useful to know:
+
+* `bisect_left` - Left most occurence of the index for the target you are searching for
+* `bisect_right` - Right most occurence of the index for the target you are searching for
+* `bisect` - defaults to `bisect_right`
+
+All the above apply the binary search algorithm behind the scenes, hence we can get a search time complexity of `O(LogN)`. Keep note that, the the [source code](https://github.com/python/cpython/blob/9dda9020abcf0d51d59b283a89c58c8e1fb0f574/Lib/bisect.py#L102-L106) for bisect module, shows the algorithm is written in `C`. Hence in production, it would be faster to use this implementation than anything written in python. But I encourage you to write out binary search algorithms to re-enforce your learnings.
+
+Lets have a look at some examples:
+
+```python
+import bisect
+
+A = [-14, -10, 2, 108, 108, 243, 285, 285, 285, 401]
+
+print(bisect.bisect_left(A, -10)) # 1
+
+print(bisect.bisect_left(A, 285)) # 6
+```
+
+There are two more functions to be aware of in the `bisect` module. These are:
+
+* `insort_left`
+* `insort_right`
+
+And provide additional functionality to `bisect_left`, `bisect_right` by inserting a value into the sorted list to maintain its sorted structure. 
+
+> Insertion now increases the time complexity on average to `O(N)` as this dominates over the `O(LogN)` search algorithm for large enough `N`.
+{: .prompt-warning}
