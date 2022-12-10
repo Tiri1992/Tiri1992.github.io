@@ -57,7 +57,7 @@ class LinkedList:
     def __init__(self) -> None:
         self.head = None
 
-    def append(self, data) -> None:
+    def append(self, data: int) -> None:
         new_node = Node(data)
 
         # In the event our linked list is empty
@@ -97,7 +97,7 @@ This is a useful helper method for other methods that may follow. Its trivial in
 Suppose we wanted to add extra functionality to our `LinkedList` class, such as a method that added a new node to the beginning of our linked list.
 
 ```python
-    def prepend(self, data) -> None:
+    def prepend(self, data: int) -> None:
         new_node = Node(data=data)
         if self.head is None:
             self.head = new_node 
@@ -116,7 +116,7 @@ The above logic checks if the linked list is empty and if so add the node as hea
 The following method allows us to insert a node in a list directly after a target node.
 
 ```python
-    def insert_after_node(self, prev_val, data):
+    def insert_after_node(self, prev_val: int, data: int):
         # Search to find existance
         curr = self.head
 
@@ -142,7 +142,7 @@ We need to be aware of the edge case that Node doesn't exist.
 Another popular operation on a linked list is to delete a node.
 
 ```python
-    def delete_node(self, key) -> None:
+    def delete_node(self, key: int) -> None:
         if self.head.data == key:
             # update head
             self.head = self.head.next
@@ -167,7 +167,7 @@ A good example of this is suppose we wanted to delete `Node(3)` from the linked 
 Another common method for deleting, similar to the above, is deleting via an index element. The logic for that is as follows:
 
 ```python
-    def delete_node_at_pos(self, pos):
+    def delete_node_at_pos(self, pos: int):
         # Two cases: 
         # 1. Node deleted at pos 0
         # 2. Node deleted at pos not 0
