@@ -20,7 +20,7 @@ In each method, we leverage the `memoization` part to reduce the time complexity
 
 ---
 
-## Example: 
+## Example: Climbing Staircase 
 
 The problem we will work through is called [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/). We are climbing a staircase and it takes `n` steps to reach the top. Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?
 
