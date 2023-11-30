@@ -19,12 +19,12 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Tiri Georgiou
+title: Sotiri Georgiou
 
-tagline: Software Engineering blog   # it will display as the sub-title
+tagline: Coding blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Software Engineering blog for Data structures & Algorithms, clean code practices and other python idioms.
+  Posts of coding practices, fun algorthims and design patterns.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://tiri1992.github.io'
@@ -38,7 +38,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Tiri Georgiou
+  name: Sotiri Georgiou
   email: 'tiri.georgiou@gmail.com'             # change to your email address
   links:
     # The first element serves as the copyright owner's link

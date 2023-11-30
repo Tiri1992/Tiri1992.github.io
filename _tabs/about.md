@@ -4,6 +4,6 @@ order: 4
 ---
 
 
-Hey my name is Tiri, I'm a London based Backend Engineer mostly specialising in python. I enjoy to solve core engineering challenges, anywhere from SW design patterns to algorithmic problems and this blog is dedicated to my learnings along the way. If any topics in this blog have helped you learn something new then thats great! 
+Hey I'm Sotiri, a London based software engineer who enjoys exploring design patterns/algorithms and general idioms of other languages. I keep this blog as a personal journal to explore what I've learned and come across from anything industry to personal developments.
 
 Feel free to reach out to me via email if you have any questions.
